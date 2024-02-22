@@ -1,0 +1,27 @@
+.searchBar {
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  width: 25%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background-color: var(--very-light-grey);
+}
+
+.searchBar.dark {
+  background-color: var(--dark-blue);
+  color: white;
+}
+
+input {
+  border-style: none;
+  outline: none;
+  width: 100%;
+  font-size: 1rem;
+  background-color: inherit;
+  color: var(--dark-grey);
+}
+
+.searchBar.dark ::placeholder {
+  color: var(--white);
+}

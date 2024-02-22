@@ -1,0 +1,30 @@
+.container {
+  width: 100;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  background-color: var(--white);
+  align-items: center;
+}
+
+.container.dark {
+  background-color: var(--dark-blue);
+  color: white;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.darkMode {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.darkMode-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}

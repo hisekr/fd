@@ -1,0 +1,6 @@
+.network-error {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  font-size: 3rem;
+}

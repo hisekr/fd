@@ -1,0 +1,28 @@
+.asc,
+.desc {
+  width: 100px;
+  margin: 1px;
+  background-color: var(--white);
+  border: 1px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.asc.dark {
+  background-color: var(--dark-blue);
+  color: white;
+}
+
+.area-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: var(--white); */
+  background-color: aliceblue;
+  color: black;
+}
+
+.area-container.dark {
+  background-color: var(--dark-blue);
+  color: white;
+}

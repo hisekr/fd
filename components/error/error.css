@@ -1,0 +1,11 @@
+.errorPage {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  height: 66.75vh;
+}
+
+.errorPage.dark {
+  color: var(--white);
+  background-color: var(--very-dark-blue);
+}

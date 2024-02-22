@@ -1,0 +1,26 @@
+.dropdown {
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  /* background-color: var(--very-light-grey); */
+  background-color: whitesmoke;
+}
+
+.dropdown.dark {
+  background-color: var(--dark-blue);
+}
+
+select {
+  border-style: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: inherit;
+  color: var(--dark-grey);
+}
+
+select {
+  color: black;
+}
+
+.dark select {
+  color: white;
+}
